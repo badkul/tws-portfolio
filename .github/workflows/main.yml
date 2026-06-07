@@ -20,7 +20,7 @@ jobs:
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v2
         with:
-          workload_identity_provider: projects/751062269307/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+          workload_identity_provider: projects/751062269307/locations/global/workloadIdentityPools/github-pool/providers/github-provider-v2
           service_account: githubactions@project-a0d9d954-ea3e-4055-bea.iam.gserviceaccount.com
 
       - name: Setup gcloud
